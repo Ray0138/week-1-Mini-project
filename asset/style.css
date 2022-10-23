@@ -1,0 +1,91 @@
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+  
+ 
+  body {
+    background-color: lemonchiffon;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  header{
+    position: fixed;
+    top: 30px;;
+    width:100%;
+  }
+
+  footer{
+    position: relative;
+    top: 50px;
+    width:100%;
+  }
+
+header,
+footer {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  color: #f0ead6;
+  background-color: #191970;
+  
+}
+
+figure {
+    width: 200px;
+    background-color: #f0ead6;
+  }
+
+  .highlighted-text {
+    font-weight: bolder;
+  }
+
+ 
+.contact-section {
+    background-color: #f0ead6;
+    position: relative;
+    top: 50px;
+  }
+
+
+
+ 
+  
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(15, 230, 147);
+    position: fixed;
+    top:0;
+    width:100%;
+
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0.5px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #8beb0d;
+    color: white;
+  } 
+
+  .Caption{
+    position: relative;
+    top: 30px;
+  }
+
+  img {
+    width: 100%;
+    height: 50%;
+
+  }
